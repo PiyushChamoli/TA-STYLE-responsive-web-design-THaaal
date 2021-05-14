@@ -162,6 +162,10 @@ a{
     font-size: 1.6rem;
     font-weight: 500;
 }
+.blog img{
+    max-height: 210px;
+    object-fit: cover;
+}
 .blog p{
     font-size: 0.9rem;
     color: #8B8C90;
@@ -190,20 +194,42 @@ a{
     margin-left: 2rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 1100px;
+    }
+}
+@media screen and (max-width:992px) {
+    .container{
+        max-width: 950px;
+    }
+}
 @media screen and (max-width:768px) {
+    .container{
+        max-width: 730px;
+    }
     html{
         font-size: 10px;
     }
     .wrap{
         flex-wrap: wrap;
     }
-    .flex{
-        justify-content: center;
+    .flex-100{
+        flex: 0 1 100%;
+        margin: 2rem 0;
     }
-    .footer small{
-        width: 100%;
+    .order-1{
+        order: 1;
     }
-    .footer ul{
-        width: 100%;
+    .column{
+        flex-direction: column;
+    }
+    .header-li,  .footer li{
+        margin: 0.6rem 1rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .container{
+        max-width: 530px;
     }
 }
