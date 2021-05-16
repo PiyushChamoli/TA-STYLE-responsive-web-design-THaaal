@@ -459,7 +459,7 @@ a{
 }
 @media screen and (max-width:576px) {
     .container{
-        max-width: 540px;
+        max-width: 535px;
     }
     html{
         font-size: 10px;
