@@ -14,31 +14,38 @@
     <header class="header">
         <nav class="container flex align-center justify-between">
             <div class="header-left">
-                <h1>Alt Events</h1>
+                <h1 class="brand">Alt Events</h1>
             </div>
-            <ul class="header-right flex align-center justify-between">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a class="btn" href="#">Join Us</a>
-                </li>
-            </ul>
+
+            <label class="bars" for="toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" id="toggle">
+            <nav class="nav">
+                <ul class="header-right flex align-center justify-between sm-column">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn" href="#">Join Us</a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
     </header>
     <main>
         <section class="hero-section padding">
-            <article class="container flex align-center justify-between">
-                <div class="flex-48">
+            <article class="container flex align-center justify-between sm-wrap">
+                <div class="flex-48 sm-flex-100 order-1">
                     <h2>
                         Web Developer Conference <span>2020</span>
                     </h2>
@@ -48,17 +55,17 @@
                     </p>
                     <a class="btn" href="#">Register now</a>
                 </div>
-                <figure class="flex-30">
+                <figure class="flex-30 sm-flex-100">
                     <img class="width-full" src="assets/hero.png" alt="hero">
                 </figure>
             </article>
         </section>
         <section class="about padding">
-            <article class="container flex align-center justify-between">
-                <figure class="flex-48">
+            <article class="container flex align-center justify-between sm-wrap">
+                <figure class="flex-48 sm-flex-100">
                     <img class="width-full" src="assets/about.png" alt="about">
                 </figure>
-                <div class="flex-48">
+                <div class="flex-48 sm-flex-100">
                     <h2>
                         About the event
                     </h2>
@@ -75,8 +82,8 @@
             <h2>
                 Why you should join
             </h2>
-            <div class="container flex align-center justify-between">
-                <div class="flex-30 about-col">
+            <div class="container flex align-center justify-between sm-wrap">
+                <div class="flex-30 about-col sm-flex-100">
                     <h3>
                         Network
                     </h3>
@@ -85,7 +92,7 @@
                         vel optio quasi labore rerum, architecto delectus fugiat nostrum eveniet.
                     </p>
                 </div>
-                <div class="flex-30 about-col">
+                <div class="flex-30 about-col sm-flex-100">
                     <h3>
                         Great Speakers
                     </h3>
@@ -94,7 +101,7 @@
                         vel optio quasi labore rerum, architecto delectus fugiat nostrum eveniet.
                     </p>
                 </div>
-                <div class="flex-30 about-col">
+                <div class="flex-30 about-col sm-flex-100">
                     <h3>
                         Information
                     </h3>
@@ -109,11 +116,14 @@
             <h2>
                 Schedule
             </h2>
-            <div class="schedule-col container flex align-center justify-between">
-                <div class="flex-30">
+            <div class="schedule-col container flex align-center justify-between sm-wrap">
+                <div class="flex-15 schedule-date sm-flex-100">
+                    06 <br> Sept
+                </div>
+                <div class="flex-15 sm-flex-100">
                     <img class="width-full" src="assets/schedule-01.jpg" alt="schedule-01">
                 </div>
-                <div class="flex-60">
+                <div class="flex-60 sm-flex-100">
                     <h3>
                         Digital world event conversation
                     </h3>
@@ -123,11 +133,14 @@
                     </p>
                 </div>
             </div>
-            <div class="schedule-col container flex align-center justify-between">
-                <div class="flex-30">
+            <div class="schedule-col container flex align-center justify-between sm-wrap">
+                <div class="flex-15 schedule-date sm-flex-100">
+                    06 <br> Sept
+                </div>
+                <div class="flex-15 sm-flex-100">
                     <img class="width-full" src="assets/schedule-02.jpg" alt="schedule-01">
                 </div>
-                <div class="flex-60">
+                <div class="flex-60 sm-flex-100">
                     <h3>
                         Digital world event conversation
                     </h3>
@@ -137,11 +150,14 @@
                     </p>
                 </div>
             </div>
-            <div class="schedule-col container flex align-center justify-between">
-                <div class="flex-30">
+            <div class="schedule-col container flex align-center justify-between sm-wrap">
+                <div class="flex-15 schedule-date sm-flex-100">
+                    06 <br> Sept
+                </div>
+                <div class="flex-15 sm-flex-100">
                     <img class="width-full" src="assets/schedule-03.jpg" alt="schedule-01">
                 </div>
-                <div class="flex-60">
+                <div class="flex-60 sm-flex-100">
                     <h3>
                         Digital world event conversation
                     </h3>
@@ -151,11 +167,14 @@
                     </p>
                 </div>
             </div>
-            <div class="schedule-col container flex align-center justify-between">
-                <div class="flex-30">
+            <div class="schedule-col container flex align-center justify-between sm-wrap">
+                <div class="flex-15 schedule-date sm-flex-100 last-item">
+                    06 <br> Sept
+                </div>
+                <div class="flex-15 sm-flex-100">
                     <img class="width-full" src="assets/schedule-04.jpg" alt="schedule-01">
                 </div>
-                <div class="flex-60">
+                <div class="flex-60 sm-flex-100">
                     <h3>
                         Digital world event conversation
                     </h3>
@@ -168,35 +187,46 @@
             <a class="btn" href="#">Download Schedule</a>
         </section>
         <section class="info padding">
-            <div class="container flex align-center justify-between">
-                <div class="flex-20">
+            <div class="container flex align-center justify-between sm-wrap">
+                <div class="flex-20 sm-flex-100">
                     <img src="assets/speaker.png" alt="speaker">
                     <p class="info-top">20+</p>
                     <p class="info-bottom">Great Speakers</p>
                 </div>
-                <div class="flex-20 active">
+                <div class="flex-20 active sm-flex-100">
                     <img src="assets/idea.png" alt="idea">
                     <p class="info-top">50+</p>
                     <p class="info-bottom">Total Topic</p>
                 </div>
-                <div class="flex-20">
+                <div class="flex-20 sm-flex-100">
                     <img src="assets/participants.png" alt="participants">
                     <p class="info-top">300+</p>
                     <p class="info-bottom">Participants</p>
                 </div>
-                <div class="flex-20">
+                <div class="flex-20 sm-flex-100">
                     <img src="assets/sponsor.png" alt="sponsor">
                     <p class="info-top">20+</p>
                     <p class="info-bottom">Sponsors</p>
                 </div>
             </div>
         </section>
+        <section class="vid padding">
+            <div class="container">
+                <figure class="iframe-container">
+                    <iframe
+                    src="https://www.youtube.com/embed/RYg_PhYY2bA" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </figure>
+            </div>
+        </section>
         <section class="news padding">
             <h2>
                 Our Latest News
             </h2>
-            <div class="news-col container flex align-center justify-between">
-                <article class="flex-30">
+            <div class="news-col container flex align-center justify-between sm-wrap">
+                <article class="flex-30 sm-flex-100">
                     <img class="width-full" src="assets/news-01.png" alt="news-01">
                     <h3>
                         How to build a great protfolio as a beginner developer
@@ -207,7 +237,7 @@
                     </p>
                     <a href="#">Read More</a>
                 </article>
-                <article class="flex-30">
+                <article class="flex-30 sm-flex-100">
                     <img class="width-full" src="assets/news-02.png" alt="news-01">
                     <h3>
                         How to build a great protfolio as a beginner developer
@@ -218,7 +248,7 @@
                     </p>
                     <a href="#">Read More</a>
                 </article>
-                <article class="flex-30">
+                <article class="flex-30 sm-flex-100">
                     <img class="width-full" src="assets/news-03.png" alt="news-01">
                     <h3>
                         How to build a great protfolio as a beginner developer
@@ -234,11 +264,11 @@
     </main>
     <footer class="footer">
         <div class="footer-top padding">
-            <div class="container flex align-center justify-between">
-                <div class="flex-30">
+            <div class="container flex align-center justify-between sm-wrap">
+                <div class="flex-30 sm-flex-100 sm-text-center">
                     <img src="assets/footer-logo.png" alt="">
                 </div>
-                <div class="flex-30">
+                <div class="flex-30 sm-flex-100 sm-text-center">
                     <h3>Quick Links</h3>
                     <ul class="flex align-center justify-between">
                         <li>
@@ -255,7 +285,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="flex-30">
+                <div class="flex-30 sm-flex-100 sm-text-center">
                     <h3>Follow Us</h3>
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
                     <a href="#"><i class="fab fa-twitter-square"></i></a>
